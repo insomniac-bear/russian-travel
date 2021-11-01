@@ -1,0 +1,22 @@
+@import url(../vendor/normalize.css);
+@import url(../vendor/fonts/fonts.css);
+/* --- Page Block --- */
+@import url(../blocks/page/page.css);
+/* --- Header Block --- */
+@import url(../blocks/header/header.css);
+/* --- Logo Block --- */
+@import url(../blocks/logo/logo.css);
+/* --- Lang-menu Block --- */
+@import url(../blocks/lang-menu/lang-menu.css);
+@import url(../blocks/lang-menu/__item/lang-menu__item.css);
+@import url(../blocks/lang-menu/__button/lang-menu__button.css);
+@import url(../blocks/lang-menu/__button/_active/lang-menu__button_active.css);
+/* --- Main Block --- */
+@import url(../blocks/main/main.css);
+/* --- Intro Block --- */
+@import url(../blocks/lead/lead.css);
+@import url(../blocks/lead/__title/lead__title.css);
+@import url(../blocks/lead/__subtitle/lead__subtitle.css);
+@import url(../blocks/lead/__decorate/lead__decorate.css);
+@import url(../blocks/lead/__image/lead__image.css);
+@import url(../blocks/lead/__photo-description/lead__photo-description.css);
