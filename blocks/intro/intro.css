@@ -1,0 +1,10 @@
+.intro {
+  display: flex;
+  flex-direction: column;
+
+  padding-top: 95px;
+
+  min-width: 288px;
+  max-width: 984px;
+  width: 100%;
+}
