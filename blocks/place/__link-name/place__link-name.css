@@ -1,0 +1,10 @@
+.place__link-name {
+  margin: 0 0 10px 0;
+  padding: 0;
+
+  color: #aaa;
+  font-size: 12px;
+  letter-spacing: 2px;
+  line-height: 1.7;
+  text-transform: uppercase;
+}

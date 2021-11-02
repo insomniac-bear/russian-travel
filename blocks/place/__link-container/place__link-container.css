@@ -1,0 +1,5 @@
+.place__link-container {
+  grid-area: link;
+
+  margin-top: auto;
+}

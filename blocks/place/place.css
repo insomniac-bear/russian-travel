@@ -1,0 +1,16 @@
+.place {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: auto repeat(2, 1fr);
+  grid-template-areas:
+    "title link"
+    "photo text"
+    "photo text";
+  gap: 48px 40px;
+
+  margin-bottom: 81px;
+
+  min-width: 320px;
+  max-width: 984px;
+  width: 100%;
+}
