@@ -1,0 +1,9 @@
+.cover__overlay {
+  display: flex;
+
+  width: 100%;
+  min-height: 740px;
+
+
+  background-color: rgba(42, 44, 47, .3);
+}

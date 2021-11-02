@@ -1,3 +1,19 @@
 .place__link {
+  box-sizing: border-box;
+
+  color: #fff;
+  line-height: 1.22;
+  text-decoration: none;
+
+  border-bottom: 1px solid #fff;
+
+  transition: opacity .3s ease;
+}
+
+.place__link:hover {
+  opacity: .8;
+}
+
+.place__link:visited {
   color: #fff;
 }
