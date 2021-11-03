@@ -4,6 +4,26 @@
 
   padding-top: 28px;
 
+  min-width: 288px;
   max-width: 1184px;
   width: 92.5%;
+}
+
+@media screen and (max-width: 1279px) {
+  .header {
+    width: 90.6%;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .header {
+    width: 93.7%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .header {
+    padding-top: 16px;
+    width: 90%;
+  }
 }

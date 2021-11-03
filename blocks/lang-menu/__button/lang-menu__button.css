@@ -5,7 +5,7 @@
 
   color: #fff;
   font-size: 24px;
-  line-height: 28px;
+  line-height: 1.17;
 
   background-color: inherit;
 
@@ -13,4 +13,11 @@
   border: none;
 
   cursor: pointer;
+}
+
+@media screen and (max-width: 767px) {
+  .lang-menu__button {
+    font-size: 18px;
+    line-height: 1.11;
+  }
 }

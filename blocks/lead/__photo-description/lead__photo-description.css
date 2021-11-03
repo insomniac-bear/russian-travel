@@ -8,3 +8,15 @@
   line-height: 1.4;
   text-transform: uppercase;
 }
+
+@media screen and (max-width: 1023px) {
+  .lead__photo-description {
+    margin-left: 24px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .lead__photo-description {
+    margin-left: 16px;
+  }
+}
