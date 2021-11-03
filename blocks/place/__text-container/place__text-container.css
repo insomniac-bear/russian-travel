@@ -1,5 +1,13 @@
 .place__text-container {
   grid-area: text;
 
-  width: 484px;
+  width: 100%;
+}
+
+@media screen and (max-width: 767px) {
+  .place__text-container {
+    margin: 0 0 0 16px;
+
+    width: 90%;
+  }
 }

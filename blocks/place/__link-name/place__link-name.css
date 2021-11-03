@@ -8,3 +8,10 @@
   line-height: 1.7;
   text-transform: uppercase;
 }
+
+@media screen and (max-width: 1023px) {
+  .place__link-name {
+    margin-bottom: 12px;
+    line-height: 1;
+  }
+}
