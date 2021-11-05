@@ -1,4 +1,4 @@
-.lang-menu__button {
+.lang-menu__link {
   margin: 0;
   padding: 0;
   padding-bottom: 1px;
@@ -6,17 +6,26 @@
   color: #fff;
   font-size: 24px;
   line-height: 1.17;
+  text-decoration: none;
 
   background-color: inherit;
 
   box-sizing: border-box;
   border: none;
 
-  cursor: pointer;
+  transition: opacity .3s ease;
+}
+
+.lang-menu__link:hover {
+  opacity: .8;
+}
+
+.lang-menu__link:visited {
+  color: #fff;
 }
 
 @media screen and (max-width: 767px) {
-  .lang-menu__button {
+  .lang-menu__link {
     font-size: 18px;
     line-height: 1.11;
   }
